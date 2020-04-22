@@ -1,0 +1,24 @@
+// .auth-container {
+//     background-image:
+// }
+
+ion-content{
+    --background: none;
+    background-image: url('../../../assets/login_background.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    ion-item {
+        color: #fff;
+    }
+}
+
+
+.auth-container {
+    color: #fff
+}
+
+.error-box {
+    height: 5rem;
+}

@@ -115,5 +115,24 @@ ion-note {
 }
 
 ion-item.selected {
-  --color: var(--ion-color-primary);
+  // --color: var(--ion-color-primary);
 }
+
+ion-menu {
+  --ion-background-color: var(--ion-color-primary);
+  --ion-text-color: var(--ion-color-primary-contrast);
+
+  ion-toolbar {
+    --background: var(--ion-color-primary);
+  }
+
+  ion-list {/* optional, but it needs when you use gradient as a background color.*/
+    background: transparent;
+  }
+
+  ion-icon.icon-white {
+    color: #fff !important;
+  }
+
+}
+

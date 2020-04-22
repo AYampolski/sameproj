@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Tracking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="tracking-container img-container">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" offset="3" ><img src="../../../assets/logo.png" alt=""></ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="info-box">
+    <div class="info-box__logo">
+      <img src="../../../assets/ic_notification.png" alt="">
+    </div>
+    <div class="info-box__title">Tracking</div>
+    <div class="info-box__description">
+      Enable tracking services and we will alert you of suitable jobs based on your current location
+    </div>
+  </div>
+  <ion-item color="none" lines="none" class="toggle-tracking">
+    <ion-toggle slot="end" name="kiwi" color="success" checked></ion-toggle>
+    <ion-label>Tracking on</ion-label>
+  </ion-item>
+</ion-content>

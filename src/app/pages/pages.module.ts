@@ -8,14 +8,16 @@ import { AuthComponent } from './auth/auth.component';
 import { JobNotificationComponent } from './job-notification/job-notification.component';
 import { TrackingComponent } from './tracking/tracking.component';
 
-
-const MODULES = [ CommonModule, PagesRoutingModule, IonicModule];
-const PAGES = [AuthComponent, JobNotificationComponent, TrackingComponent];
+import { NotificationCardComponent } from './job-notification/components/notification-card/notification-card.component';
 
 @NgModule({
-  declarations: [...PAGES],
-  imports: [
-    ...MODULES
-  ]
+  declarations: [
+    AuthComponent,
+    JobNotificationComponent,
+    TrackingComponent,
+    NotificationCardComponent,
+  ],
+  imports: [CommonModule, PagesRoutingModule, IonicModule],
+  providers: []
 })
-export class PagesModule { }
+export class PagesModule {}

@@ -19,6 +19,10 @@
         </ion-list>
 
         <ion-list id="labels-list">
+          <ion-item (click)="openBrowser()">
+            <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
+            <ion-label>Browser</ion-label>
+          </ion-item>
           <!-- <ion-list-header>Labels</ion-list-header> -->
 <!--
           <ion-item *ngFor="let label of labels" lines="none">

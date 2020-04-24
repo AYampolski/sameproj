@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { JobNotificationComponent } from './job-notification/job-notification.component';
 import { TrackingComponent } from './tracking/tracking.component';
 import { AuthComponent } from './auth/auth.component';
+import { BrowserViewComponent } from './browser-view/browser-view.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
         path: 'auth',
         component: AuthComponent
       },
+      {
+        path: 'browser-view',
+        component: BrowserViewComponent
+      }
     ],
   },
 ];

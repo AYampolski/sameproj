@@ -1,0 +1,24 @@
+<div class="card-container">
+  <div class="card-header">
+    <div class="vehicle">
+      <div class="vehicle__item"><img class="vehicle__icon " src="assets/vehicles/{{order.vehicleIcon}}.svg" alt="vehicle-type"> </div>
+      <div class="vehicle__description vehicle__item">{{ order.vehicleType }}</div>
+      <div class="vehicle__timing vehicle__item">{{ order.estimateTime}}</div>
+    </div>
+  </div>
+  <div class="card-content">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="5" class="pick-up">
+          <div class="card__header">PICK UP</div>
+          <div class="card__address"> {{ order.locationPickUp }} </div>
+        </ion-col>
+        <ion-col size="2" class="divider"><ion-icon name="arrow-forward-outline"></ion-icon></ion-col>
+        <ion-col size="5" class="drop-off">
+          <div class="card__header">DROP OFF</div>
+          <div class="card__address"> {{ order.locationDropOff }} </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</div>

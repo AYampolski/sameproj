@@ -7,6 +7,7 @@
   color: #fff;
   &__logo {
     margin-bottom: 1.5rem;
+    width: 4rem;
   }
 
   &__title {
@@ -27,6 +28,8 @@
 .toggle-tracking {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 ion-content {

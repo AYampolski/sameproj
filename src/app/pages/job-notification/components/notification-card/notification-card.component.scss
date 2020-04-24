@@ -1,0 +1,49 @@
+.card-container {
+    border-radius: 1.1rem;
+    background-color: #fff;
+    padding: .7rem;
+}
+
+.card {
+    &__header {
+       color: rgb(29, 145, 224);
+       text-transform: uppercase;
+       font-weight: 600;
+       font-size: .8rem;
+    }
+
+    &__address {
+        color: rgb(37, 45, 59);
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
+
+.vehicle {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.7rem;
+
+    &__timing {
+        background-color: rgb(216, 216, 216);
+        padding: .2rem;
+        border-radius: 40%;
+    }
+
+    &__item {
+        padding-right: .4rem;
+    }
+
+    &__icon {
+        height: 1.3rem;
+    }
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

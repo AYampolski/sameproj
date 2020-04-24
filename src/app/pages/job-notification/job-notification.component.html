@@ -3,12 +3,19 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Job Notification</ion-title>
+    <ion-title>Job Notifications</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <p>
-    job-notification works!
-  </p>
+<ion-content padding class="job-container">
+  <div class="sub-header">
+    Today
+  </div>
+
+  <ng-template ngFor let-order  let-i="index" [ngForOf]="orders" >
+    <div class="notification">
+      <app-notification-card [order]="order"></app-notification-card>
+    </div>
+  </ng-template>
+
 </ion-content>

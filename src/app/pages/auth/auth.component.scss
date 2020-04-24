@@ -16,9 +16,29 @@ ion-content{
 
 
 .auth-container {
-    color: #fff
+    color: #fff;
 }
 
 .error-box {
-    height: 5rem;
+    height: 24%;
+}
+
+.credentials {
+    height: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-header {
+    height: 15%;
+}
+
+.auth-content {
+    height: 75%;
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
 }
